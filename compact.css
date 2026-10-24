@@ -14,3 +14,22 @@ header .nav-contact{border-color:#ffffff60}
 header .nav-contact:hover{background:#ffffff12;color:#fff}
 header .menu-toggle{color:#fff}
 @media(max-width:650px){header nav{background:#244e87;border-bottom-color:#ffffff30}}
+/* Palette bleue harmonisée */
+:root{--ink:#183254;--muted:#61748c;--blue:#245ca1;--line:#dce6f2;--bg:#f8fbff}
+header.wrap::before{background:#204e87}
+.hero h2,.projects h2,.project-copy h3,.profile-line strong{color:#204e87}
+.button,.filters button.active,.dialog-top button{background:#245ca1}
+.button:hover,.dialog-top button:hover{background:#194879}
+.cv-download{color:#245ca1;border-bottom-color:#a8c4e5}
+.hero-photo img{box-shadow:14px 14px 0 #e0ebf8}
+.project-card{border-color:#dce6f2;box-shadow:0 3px 12px #234f8010}
+.project-card:hover{border-color:#a9c4e5;box-shadow:0 10px 28px #234f8018}
+.project-preview,.project-preview.arcep,.project-preview.vision{background:#edf4fc;border-bottom-color:#dce6f2}
+.project-symbol{color:#24558f}.project-symbol>span{border-color:#c3d6ef;background:#ffffffdb}
+.oracle-symbol strong{background:#dceafb;border-color:#bed3ed;color:#24558f}
+.project-kind{color:#52739a}.project-tools{color:#245ca1}
+.filters button:not(.active):hover{background:#e4effb}
+.profile-line{background:#eef5fd;border-radius:8px;border-top:0;margin-top:8px;margin-bottom:20px}
+.contact{background:#204e87}.contact .eyebrow{color:#c4daf5}.contact-details .email{color:#fff}.contact-details>a:last-child{color:#d4e4f8}
+.tags span{background:#eaf3ff;color:#24558f}#dialog-content h2,#dialog-content h3{color:#204e87}
+@media(max-width:650px){.hero-photo img{box-shadow:6px 6px 0 #e0ebf8}}
